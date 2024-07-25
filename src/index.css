@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Caslon";
+    src: (local("caslon-antique")),
+    url("./fonts/caslon-antique.regular.ttf") format("truetype");
+}
+
+:root {
+    font-family: "Caslon";
+}
