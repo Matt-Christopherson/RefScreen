@@ -1,3 +1,13 @@
 #table-label {
     margin-inline-start: center;
 }
+
+.resize-handle {
+	width: 10px; /* Adjust width as needed */
+	height: 10px; /* Adjust height as needed */
+	background-color: rgba(0, 0, 0, 0.5); /* Color for visibility */
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	cursor: se-resize; /* Show resize cursor */
+}
